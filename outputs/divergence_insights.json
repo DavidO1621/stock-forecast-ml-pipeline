@@ -1,0 +1,32 @@
+{
+    "2023-08-04": {
+        "actual": 179.64,
+        "predicted": 186.78,
+        "pct_divergence": 3.98,
+        "explanation": "## Analysis of AAPL Prediction Error on August 4, 2023\n\nThe prediction error most likely stems from the aftershock of Apple's Q3 FY2023 earnings report released on **August 3, 2023**, which showed the third consecutive quarter of revenue decline and weaker-than-expected iPhone sales, causing shares to drop approximately 4.8% on August 4th. The model likely failed to adequately price in the negative forward guidance on Q4 revenue, as management projected another year-over-year decline, which conflicted with the model's presumably bullish momentum signals heading into earnings. Additionally, this occurred during a period of broader tech sector pressure following Fitch's U.S. credit rating downgrade on August 1st, compounding the negative sentiment."
+    },
+    "2023-08-07": {
+        "actual": 176.54,
+        "predicted": 182.76,
+        "pct_divergence": 3.53,
+        "explanation": "## Analysis of AAPL Prediction Error on August 7, 2023\n\nThe prediction error likely stems from the broader market selloff triggered by Moody's downgrade of several U.S. regional banks announced on August 7, 2023, which created unexpected negative sentiment across equities, including tech stocks. Additionally, this occurred during a period of rising Treasury yields and concerns about potential further Fed tightening, contributing to risk-off positioning that the model\u2014trained primarily on AAPL-specific patterns\u2014would not have anticipated. The model's bullish prediction suggests it failed to incorporate these macro credit and banking sector contagion effects that weighed on the broader market that day."
+    },
+    "2023-09-07": {
+        "actual": 175.5,
+        "predicted": 181.49,
+        "pct_divergence": 3.41,
+        "explanation": "## Analysis of AAPL Prediction Error on September 7, 2023\n\nThe 3.41% overestimation likely stems from the broader tech sector selloff triggered by reports on September 6-7, 2023 that the Chinese government was expanding its iPhone ban to state-owned enterprises and government agencies, creating significant demand uncertainty for Apple's largest growth market. This China-specific regulatory headline risk would not have been captured in historical price patterns, causing the model to predict continuation of prior momentum while the stock faced an unexpected geopolitical headwind that pressured shares downward."
+    },
+    "2023-09-08": {
+        "actual": 176.12,
+        "predicted": 181.94,
+        "pct_divergence": 3.31,
+        "explanation": "## Analysis of AAPL Prediction Error on September 8, 2023\n\nThe prediction error likely stems from the Chinese government's expanding ban on iPhone use by state employees, which was reported extensively during the week of September 4-8, 2023, causing AAPL shares to decline approximately 6% over that period. This geopolitical development represented a material demand shock specific to Apple's China exposure that a price-based forecasting model would not have anticipated. The model's bullish bias ($181.94 predicted vs. $176.12 actual) suggests it failed to incorporate this exogenous, sentiment-driven selloff that overshadowed normal technical patterns."
+    },
+    "2023-03-08": {
+        "actual": 150.69,
+        "predicted": 145.81,
+        "pct_divergence": 3.23,
+        "explanation": "## Analysis of AAPL Prediction Error on March 8, 2023\n\nThe prediction error likely stems from Fed Chair Powell's hawkish testimony to Congress on March 7-8, 2023, where he signaled openness to accelerating rate hikes, which initially spooked markets but saw tech stocks like AAPL recover more strongly than the model anticipated as investors rotated into quality large-caps. Additionally, this period coincided with the emerging Silicon Valley Bank stress (which would collapse on March 10), creating unusual flight-to-safety dynamics that benefited Apple as a perceived stable asset. The model likely failed to capture this rapid sentiment shift favoring mega-cap tech as a defensive play amid regional banking concerns."
+    }
+}
